@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #FAEDD4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+aside {
+    width: 18vw;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 800px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+aside section {
+    width: 6vw;
+    height: 100%;
+    writing-mode: vertical-lr;
+    line-height: 4vw;
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact {
+    background: #FC564A;
+}
+.brands {
+    background: #FFAF00;
+}
+.who {
+    background: #8899CC;
+}
+main {
+    width: calc(100% - 18vw);
+    overflow-x: hidden;
+}
+nav {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logo {
+    background-image: url(../images/logo.png);
+    width: 12vw;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: center;
+    margin-left: 5vw;
+}
+.app {
+    height: 35%;
+    width: 10vw;
+    border: 2px solid #FB3B2D;
+    border-radius: 7px;
+    padding: 10px;
+}
+.ios {
+    background-image: url(../images/ios.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90%;
+    margin-left: 15vw;
+}
+.android {
+    background-image: url(../images/android.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 2vw;
+    margin-right: 15vw;
+    background-size: 90%;
+}
+.lang {
+    font-size: 19px;
+    color: #FB3B2D;
+    margin-left: 1vw;
+}
+.promo {
+    height: 300px;
+    width: 100%;
+    background: #FB3B2D;
+    color: #FAEDD4;
+    font-size: 35px;
+    text-align: center;
+    padding: 5vh 14vw;
+}
+.promocont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+.promobutton {
+    width: 250px;
+    height: 28px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #FAEDD4;
+    color: #FB3B2D;
+    margin: 4px;
+    text-transform: uppercase;
+    padding-top: 3px;
+}
+.discover {
+    height: 582px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.discoverimage {
+    background-image: url(../images/strips.png);
+    height: 100%;
+    width: 30%;
+}
+.discoverinfo {
+    width: calc(70% - 2px);
+    border-right: 2px solid #FB3B2D;
+}
+.best {
+    height: 56%;
+    width: 100%;
+    font-size: 50px;
+    color: #FB3B2D;
+    border-bottom: 2px solid #FB3B2D;
+    padding: 100px 16vw 0 7vw;
+}
+.discoverslogan {
+    height: 22%;
+    width: 100%;
+    font-size: 22px;
+    color: #FB3B2D;
+    padding: 40px 18vw 0 7vw;
+}
+.discoverbutton {
+    width: 100%;
+    height: 22%;
+    background-color: #FB3B2D;
+    color: #FAEDD4;
+    font-size: 37px;
+    text-align: center;
+    padding-top: 45px;
+}
+.dishes img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.stats {
+    width: 100%;
+}
+.statshead {
+    width: 100%;
+    border-bottom: 2px solid #FB3B2D;
+    border-top: 2px solid #FB3B2D;
+    font-size: 65px;
+    color: #FB3B2D;
+    padding: 32px 16vw 32px 7vw;
+}
+.statsblock {
+    width: 100%;
+    height: 620px;
+    display: flex;
+    justify-items: center;
+    flex-wrap: wrap;
+}
+.statscard {
+    width: 33.3%;
+    text-align: center;
+    position: relative; 
+}
+.statscard img {
+    margin: 30% 0% auto;
+}
+.statinfo {
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+    font-size: 20px;
+    color: #FB3B2D;
+    padding: 0 10%;
+}
+.numbers {
+    width: 100%;
+    height: 120px;
+    background-color: #FB3B2D;
+    color: #FAEDD4;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.links {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 5vh;
+}
+.linkblock h3 {
+    color: #FB3B2D;
+    font-size: 22px;
+    font-weight: normal;
+}
+.linkblock ul {
+    list-style: none;
+    margin-top: 5vh;
+}
+.linkblock li {
+    color: #FB3B2D;
+    font-size: 22px;
+    font-weight: normal;
+    margin-bottom: 1vh;
+}
+.linkblock {
+    max-width: 15%;
+}
