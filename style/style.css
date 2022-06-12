@@ -87,7 +87,7 @@ nav {
     width: 100%;
     background: #FB3B2D;
     color: #FAEDD4;
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
     padding: 5vh 14vw;
 }
@@ -95,7 +95,7 @@ nav {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 90px;
+    margin-top: 40px;
 }
 .promobutton {
     width: 250px;
